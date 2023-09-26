@@ -3,7 +3,7 @@ import { isAfter, formatDuration, intervalToDuration } from 'date-fns'
 //import GetTimer from './GetTimer';
 
 function SaleBanner() {
-    const saleEnds = new Date(2023, 8, 29, 0, 0, 0); // ends at 29 Sept 2023 (months have 0-based indexing)
+    const saleEnds = new Date(2023, 8, 30, 0, 0, 0); // ends at 30 Sept 2023 (months have 0-based indexing)
     //const saleEnds = new Date(2023, 8, 26, 12, 23, 0); // testing the end of the sale
 
     var duration = intervalToDuration({
